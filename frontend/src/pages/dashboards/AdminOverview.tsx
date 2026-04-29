@@ -16,7 +16,7 @@ interface Teacher {
   joinDate?: string;
 }
 
-const API_BASE = "http://localhost:3000/admin/teacher";
+const API_BASE = "https://edumonitor.onrender.com/admin/teacher";
 const FETCH_CONFIG = { credentials: "include" as const };
 
 const SUBJECTS = ["Mathematics", "Physics", "Chemistry", "Biology", "English", "History", "Geography", "Computer Science", "Hindi", "Sanskrit"];

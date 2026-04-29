@@ -16,7 +16,7 @@ interface Student {
   enrollmentNumber?: string;
 }
 
-const API_BASE = "http://localhost:3000/student/api";
+const API_BASE = "https://edumonitor.onrender.com/student/api";
 const FETCH_CONFIG = { credentials: "include" as const };
 
 export default function TeacherOverview() {

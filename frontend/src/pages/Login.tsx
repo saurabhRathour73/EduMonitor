@@ -51,7 +51,7 @@ export default function Login() {
           if (!name || !email || !password || !schoolCode)
             return toast.error("Fill all fields");
 
-          url = "http://localhost:3000/school/admin/register";
+          url = "https://edumonitor.onrender.com/school/admin/register";
 
           body = {
             fullName: name,
@@ -63,7 +63,7 @@ export default function Login() {
           if (!email || !password)
             return toast.error("Fill all fields");
 
-          url = "http://localhost:3000/school/admin/login";
+          url = "https://edumonitor.onrender.com/school/admin/login";
 
           body = {
             email,
@@ -77,7 +77,7 @@ export default function Login() {
           return toast.error("Fill all fields");
 
         // 🔥 TEACHER LOGIN API
-        url = "http://localhost:3000/teacher/api/login";
+        url = "https://edumonitor.onrender.com/teacher/api/login";
 
         body = {
           email,
@@ -90,7 +90,7 @@ export default function Login() {
           return toast.error("Fill all fields");
 
         // 🔥 STUDENT LOGIN API
-        url = "http://localhost:3000/student/profile/login";
+        url = "https://edumonitor.onrender.com/student/profile/login";
 
         body = {
           enrollmentNumber: enrollment,
@@ -103,7 +103,7 @@ export default function Login() {
           return toast.error("Fill all fields");
 
         // 🔥 (Future API - jab backend banaoge)
-        url = "http://localhost:3000/parent/student/login";
+        url = "https://edumonitor.onrender.com/parent/student/login";
 
         body = {
           studentName,
