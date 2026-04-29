@@ -24,7 +24,7 @@ export const DashboardCards = () => {
     const fetchSchools = async () => {
       try {
         const res = await fetch(
-          "http://localhost:3000/auth/superAdmin/getSchools"
+          "https://edumonitor.onrender.com/auth/superAdmin/getSchools",
         );
 
         const data = await res.json();

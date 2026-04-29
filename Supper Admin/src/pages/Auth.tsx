@@ -37,7 +37,7 @@ const Auth = () => {
   // =========================
   // SUPER ADMIN LOGIN API
   // Backend API:
-  // POST http://localhost:3000/auth/superAdmin/login
+  // POST https://edumonitor.onrender.com/auth/superAdmin/login
   // =========================
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -52,7 +52,7 @@ const Auth = () => {
 
       // API CALL FOR LOGIN
       const response = await fetch(
-        "http://localhost:3000/auth/superAdmin/login",
+        "https://edumonitor.onrender.com/auth/superAdmin/login",
         {
           method: "POST",
           credentials: "include", // 🔥 THIS IS MANDATORY
@@ -96,7 +96,7 @@ const Auth = () => {
   // =========================
   // SUPER ADMIN REGISTER API
   // Backend API:
-  // POST http://localhost:3000/auth/superAdmin/register
+  // POST https://edumonitor.onrender.com/auth/superAdmin/register
   // =========================
   const handleRegister = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -111,7 +111,7 @@ const Auth = () => {
 
       // API CALL FOR REGISTER
       const response = await fetch(
-        "http://localhost:3000/auth/superAdmin/register",
+        "https://edumonitor.onrender.com/auth/superAdmin/register",
         {
           method: "POST",
           credentials: "include", // 🔥 ADD THIS

@@ -16,7 +16,7 @@ export const Sidebar = ({ open, onClose }) => {
   const handleLogout = async () => {
     try {
       const res = await fetch(
-        "http://localhost:3000/auth/superAdmin/logout",
+        "https://edumonitor.onrender.com/auth/superAdmin/logout",
         {
           method: "POST",
           credentials: "include", // 🔥 important

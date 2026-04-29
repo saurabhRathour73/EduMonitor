@@ -41,7 +41,7 @@ export const SchoolForm = ({
 
       // 🔥 FIXED API CALL
       const response = await fetch(
-        "http://localhost:3000/auth/superAdmin/createSchool",
+        "https://edumonitor.onrender.com/auth/superAdmin/createSchool",
         {
           method: "POST",
 
