@@ -24,7 +24,7 @@ app.use(cookieParser());
 // ✅ CORS CONFIG (MOST IMPORTANT)
 app.use(
   cors({
-    origin: ["http://localhost:8080", "http://localhost:8081","https://edu-monitor-iq99.vercel.app"],
+    origin: ["http://localhost:8080", "http://localhost:8081","https://edu-monitor-iq99.vercel.app","https://edu-monitor-orcin.vercel.app"],
     credentials: true,
   })
 );
